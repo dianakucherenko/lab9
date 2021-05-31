@@ -1,12 +1,27 @@
+.header{
+    margin-right: 50px;
+    padding: 20px;
+}
 #introduction {
-  background: linear-gradient(rgba(100,181,246 ,1), rgba(0,0,0,0.8)), 
-              url('../images/background.jpg') 0% 0%/cover 
+  background:  linear-gradient(rgba(150,0,0,1), rgba(1,0,0,0)), url('https://www.gannett-cdn.com/media/2018/12/17/USATODAY/usatsports/247WallSt.com-247WS-511956-imageForEntry5-4.jpg') 0%, 0%/cover;
+  background-repeat: no-repeat;
+}
+img {
+    max-width:80%;
+    max-height:100%;
+}
+#but {
+    margin: 0px 70px 20px 20px;
 }
 .fill-viewport {
-  min-height: 100vh 
+  min-height: 110vh 
+}
+h1{
+    text-align: right;
 }
 .text-white-70 {
-  color: rgba(255,255,255,0.7)
+  color: rgba(255,255,255,0.7);
+  text-align: right;
 }
 .text-black-40 {
   color: rgba(0,0,0,0.4)
@@ -14,13 +29,15 @@
 .fill-80-viewport {
     min-height:80vh
 }
+#info-1 {
+    background-color: #9a1212;
+}
+#info-1 img {
+    max-width:25%;
+    max-height:25%;
+}
 #info-3 {
     background: linear-gradient(rgba(100,181,246,0.3), rgba(0,0,0,0.8)), url(../images/foto.jpg) 0% 0%/cover;
-}
-@media screen and (min-width: 768px ){
-  .basis-md-50 {
-	flex-basis: 50%
-  }  
 }
 .fab {
     font-size: 48px;
